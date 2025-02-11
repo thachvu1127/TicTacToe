@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2327;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.heading-wrapper {
+    color: #a0a0b3;
+    font-family: "VT323", serif;   
+    padding: 20px;
+    font-size: 2rem;
+}
+
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+    border: 2px solid blue;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 3px;
+}
+
+.board button {
+    background-color: #1e2327;
+    border: 1px solid #cdcde6;
+}
+
+.board button:hover {
+    background-color: aqua;
+}
